@@ -1,4 +1,4 @@
-os: Visual Studio 2015 RC
+os: Visual Studio 2015
 
 install:
 - ps: .\install-android-sdk.ps1
