@@ -3,6 +3,7 @@ os: Visual Studio 2015
 install:
 - where nuget
 - nuget
+- dir c:\tools
 - ps: .\install-android-sdk.ps1
 
 before_build:
